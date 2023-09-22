@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Hous With tailwind</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="teahouse.css">
+</head>
+<body >
+    <!-- header -->
+   
+   <header class="md:flex justify-between items-center bg-orange-100 py-3">
+    
+    <!-- banner writing -->
+    <div class="space-y-5">
+        
+        <h1 class="text-7xl font-medium text-orange-500">It's good <br> 
+            tea time at The <br> Tea House</h1>
+            <p class="text-slate-500">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+            <button class="btn-orange text-white py-4 px-5 flex items=-center gap-5 border rounded-lg">Explore More <img src="./images/arrow.png" alt=""></button>
+    </div>
+    <!-- banner img -->
+    <div >
+        <img  src="./images/banner.png " alt="">
+        <div class="flex items-center gap-5 bg-white border rounded-lg w-52 drop-shadow-lg star-part py-2">
+            <img src="./images/Group 5.svg" alt="">
+            <div class="space-y-1">
+                <h1 class="text-3xl">5.00</h1>
+                <p  class="text-slate-500">Trust Pilot Ratings </p>
+            </div>
+        </div>
+    </div>
+
+   </header>
+   <!-- end of header part-------------
+-------------------------------------------- -->
+   <!-- main -->
+   <main>
+    <!-- our fatured products------------
+    ----------------------------------- -->
+    <section  class="mt-20">
+        <h1 class="text-5xl font-semibold text-center text-orange-600 mb-7">Our Featured Products</h1>
+       <div class="md:grid grid-cols-2 gap-5 lg:grid-cols-4 ">
+         <!-- tea-1 -->
+         <div class="text-center w-full space-y-3 border rounded-lg drop-shadow-lg p-3 ">
+            <div class="w-full bg-slate-100 p-2">
+                <img class="w-100 mx-auto " src="./images/tea-1.png" alt="">
+            </div>
+            <p class="text-3xl text-lime-500">Milk Tea</p>
+            <p class="text-lime-500 font-semibold">Creamer could be replaced <br> by fresh milk</p>
+
+        </div>
+        <!-- tea-2 -->
+        <div class="text-center w-full space-y-3 border rounded-lg drop-shadow-lg p-3">
+            <div class="w-full bg-slate-100 p-2">
+                <img class="w-100 mx-auto " src="./images/tea-2.png" alt="">
+            </div>
+            <p class="text-3xl  text-pink-500 font-semibold">Straw Cream Tea</p>
+            <p class="text-pink-500">Creamer could be replaced <br> by fresh milk</p>
+
+        </div>
+        <!-- tea-3 -->
+        <div class="text-center w-full space-y-3 border rounded-lg drop-shadow-lg p-3">
+            <div class="w-full bg-slate-100 p-2">
+                <img class="w-100 mx-auto " src="./images/tea-3.png" alt="">
+            </div>
+            <p class="text-3xl  text-rose-900 font-semibold">Chocolate Tea</p>
+            <p class="text-rose-900">Creamer could be replaced <br> by fresh milk</p>
+
+        </div>
+        <!-- tea-4 -->
+        <div class="text-center w-full space-y-3 border rounded-lg drop-shadow-lg p-3">
+            <div class="w-full bg-slate-100 p-2">
+                <img class="w-100 mx-auto " src="./images/tea-4.png" alt="">
+            </div>
+            <p class="text-3xl  text-rose-700 font-semibold">Black Tea</p>
+            <p class="text-rose-700">Creamer could be replaced <br> by fresh milk</p>
+
+        </div>
+       </div>
+    </section>
+
+    <!-- refresh section---------
+    ------------------------------- -->
+    <section class="mt-20 gap-5 lg:flex items-center justify-between bg-pink-50 py-3  ">
+        <!-- refresh img -->
+        <div class="md:flex items-center gap-5 w-full justify-center    ">
+            <div class="fefresh-2">
+                <div class="top-1-div mb-5 w-full"></div>
+           <div style="width: 100%;
+           height: 355.279px;
+           flex-shrink: 0;" class="fresh-2">
+            <img class="mx-auto p-3"   src="./images/fresh-2.png" alt="">
+           </div>
+            </div>
+           
+            <div class="refresh-1">
+                <div style="width: 100%;
+            height: 355.279px;
+            flex-shrink: 0;" class="fresh-1">
+                <img class="mx-auto p-3"  src="./images/fresh-1.png" alt="">
+
+            </div>
+            <div class="top-2-div mt-5 w-full"></div>
+        </div>
+            </div>
+            <div class="writing space-y-5 w-full">
+                <h1 class="text-pink-600 text-6xl font-semibold">Great Tea, Freshly <br> Presented</h1>
+                <p class="text-pink-500">The meaning of gong cha is <br> chanese is to provide the best tea to emperor <br> from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had  been deeply appreciated by its custoers <br>  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                <h5 class="font-semibold text-4xl text-pink-600">Unique Taste</h5>
+                <p class="text-pink-500">A Unique and different style from other teapots gives a <br> luxurious and minimalist impression</p>
+                <h5 class="text-pink-600 text-4xl font-semibold">Premium Quality</h5>
+                <p class="text-pink-500">Premium Quality that makes tea more elegant and more <br> durable when you use it.</p>
+            </div>
+    </section>
+
+    <!-- meet our super clint section---------
+    ------------------------------------------ -->
+    <section class="orange mt-20   lg:flex items-center justify-between py-5 gap-5 ">
+       
+        <div class="text-white space-y-5">
+            <h1 class="text-5xl font-semibold">Meet Our Super <br> Clients</h1>
+            <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised <br> words which don't look even slightly believable. </p>
+            <button class="btn-white border rounded-lg px-5 py-4 hover:bg-orange-300 ">Show All</button>
+        </div>
+      
+      
+        <div class="sm-div text-center flex flex-col justify-center">
+            <img class="clint" style="width: 80px; " src="./images/client.png" alt="">
+            <p class="text-slate-500">We are providing the best and suitable home  <br>insurance services for the people who are <br> interested to treatment</p>
+            <h1 class="text-2xl font-semibold">Ilham Yuda</h1>
+            <p class="text-slate-500">Businessman</p>
+        </div>
+       
+    </section>
+
+    <!-- news and events---------
+    ---------------------------- -->
+    <section>
+        <div class="text-center py-6 mt-20">
+            <h1 class="text-4xl font-semibold text-orange-700">News & Events</h1>
+        <p class="text-orange-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+        </div>
+       <div class="md:grid grid-cols-2 items-center gap-5 lg:grid-cols-3">
+         <!-- card-1 -->
+         <div class="space-y-3 text-lime-800 bg-white border rounded-lg drop-shadow-xl text-center p-3">
+          
+            <img class="mx-auto w-full" src="./images/news-1.png" alt="">
+          
+            <p>Feb 05, 2027</p>
+            <h1 class="text-2xl font-semibold">Collecting 8 points for <br> discount</h1>
+            <p>There are many variations of <br> passages of Lorem Ipsum available.</p>
+            <button class=" font-semibold bg-lime-400 border rounded-lg py-2 px-5 text-white hover:bg-lime-800"> Learn More</button>
+        </div>
+        <!-- card-2 -->
+        <div class="space-y-3 text-orange-800 bg-white border rounded-lg drop-shadow-xl text-center p-3">
+          
+            <img class="mx-auto w-full" src="./images/news-2.png" alt="">
+          
+            <p>Feb 05, 2027</p>
+            <h1 class="text-2xl font-semibold">Collecting 8 points for <br> discount</h1>
+            <p>There are many variations of <br> passages of Lorem Ipsum available.</p>
+            <button class=" font-semibold bg-orange-400 border rounded-lg py-2 px-5 text-white hover:bg-orange-800"> Learn More</button>
+        </div>
+        <!-- card-3-->
+        <div class="space-y-3 text-yellow-800 bg-white border rounded-lg drop-shadow-xl text-center p-3">
+          
+            <img class="mx-auto w-full" src="./images/news-3.png" alt="">
+          
+            <p>Feb 05, 2027</p>
+            <h1 class="text-2xl font-semibold">Collecting 8 points for <br> discount</h1>
+            <p>There are many variations of <br> passages of Lorem Ipsum available.</p>
+            <button class=" font-semibold bg-yellow-400 border rounded-lg py-2 px-5 text-white hover:bg-yellow-800"> Learn More</button>
+        </div>
+       </div>
+    </section>
+
+   </main>
+   <!-- footer -->
+   <footer class="bg-red-100 mt-20 py-5">
+    <!-- nav -->
+    <div class="flex items-center justify-between">
+        <img src="./images/cup.png" alt="">
+        <div class="flex items-center gap-3">
+            <p class="text-slate-500">Ready to get strated?</p>
+            <button class="btn-orange text-white py-4 px-5 flex items=-center gap-5 border rounded-lg">Get Started</button>
+        </div>
+
+    </div>
+    <div class="   sm:grid grid-cols-2 justify-between md:grid-cols-4  ">
+        <!-- no-1 -->
+        <div class="mt-5">
+            <p class="font-semibold">Quick Links</p>
+            <div class="text-slate-500">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Insurance</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <!-- no-2-->
+        <div class="mt-5">
+            <p class="font-semibold">Our Service</p>
+            <div class="text-slate-500">
+                <p>Life Insurance</p>
+                <p>Car Insurance</p>
+                <p>Health Insurance</p>
+                <p>House Insurance</p>
+            </div>
+        </div>
+        <!-- no-3-->
+        <div class="mt-5">
+            <p class="font-semibold">Help</p>
+            <div class="text-slate-500">
+                <p>FAQs</p>
+                <p>Contact Us</p>
+                
+            </div>
+        </div>
+         <!-- no-4-->
+         <div class="mt-5 ">
+            <p class="font-semibold">Subscribe to our <br> newsletter</p>
+            <div class="text-slate-500 space-y-5">
+                <p >Email address</p>
+                <hr class="mx-auto border border-slate-500">
+                <p class="flex items-center gap-5"><img src="./images/Frame.svg" alt="">
+                    <img src="./images/Frame (1).svg" alt="">
+                    <img src="./images/Frame (2).svg" alt="">
+                    </p>
+            </div>
+        </div>
+        <p class="text-slate-500 ">© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+
+   </footer>
+    
+</body>
+</html>
